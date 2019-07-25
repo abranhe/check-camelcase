@@ -1,3 +1,3 @@
-module.exports = (str) => {
-  return /[A-Z]/.test(str);
+module.exports = str => {
+	return /[A-Z]/.test(str);
 };

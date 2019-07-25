@@ -1,11 +1,11 @@
-<p align="center">
+<p>
 	<br>
 	<a href="https://www.npmjs.com/package/check-camelcase"><b>🐫 check-camelcase</b></a>
 	: Check if an string is <a href="https://en.wikipedia.org/wiki/Camel_case">camelcase</a>
 	<br>
 </p>
 
-<p align="center">
+<p>
 	<a href="https://travis-ci.org/abranhe/check-camelcase"><img src="https://img.shields.io/travis/abranhe/check-camelcase.svg?logo=travis" /></a>
 	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
 	<a href="https://cash.me/$abranhe"><img src="https://cdn.abranhe.com/badges/cash-me.svg"></a>
@@ -24,29 +24,29 @@ $ npm install check-camelcase
 ## Usage
 
 ```js
-const checkCamelCase = require('check-camelcase');
+const checkCamelcase = require('check-camelcase');
 
-console.log(checkCamelCase('camelCase'));
+console.log(checkCamelcase('camelCase'));
 // => true
 
-console.log(checkCamelCase('snake_case'));
+console.log(checkCamelcase('snake_case'));
 // => false
 
-console.log(checkCamelCase('Pascalcase'));
+console.log(checkCamelcase('Pascalcase'));
 // => true
 
-console.log(checkCamelCase('Darwin_case'));
+console.log(checkCamelcase('Darwin_case'));
 // => true
 
-console.log(checkCamelCase('string'));
+console.log(checkCamelcase('string'));
 // => false
 ```
 
 ## API
 
-#### `checkCamelCase(string)`
+#### checkCamelcase(string)
 
-> Check if an string is camelCase
+Check if an string is camelCase
 
 Type: `boolean`
 

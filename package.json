@@ -4,7 +4,7 @@
   "description": "Check if an string is camelCase",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "xo && ava && tsd"
   },
   "repository": "abranhe/check-camelcase",
   "author": {
@@ -14,8 +14,7 @@
   },
   "files": [
     "index.js",
-    "readme.md",
-    "license"
+    "index.d.ts"
   ],
   "keywords": [
     "string",
@@ -30,6 +29,8 @@
   },
   "homepage": "https://p.abranhe.com/check-camelcase",
   "devDependencies": {
-    "ava": "^1.2.1"
+    "ava": "^1.4.1",
+		"tsd": "^0.7.3",
+		"xo": "^0.24.0"
   }
 }
